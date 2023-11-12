@@ -1,59 +1,54 @@
-body{
-    background-color: white;
- display: flex;   
- align-items: center;
-justify-content: center;
- 
-  
-    
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#calculator{
-   
-    background-color:#333;
-    width: 355px;
-    height: 420px;
+#calculator {
+  background-color: #333;
+  width: 355px;
+  height: 420px;
 }
-#display{
-    background-color: #444;
-    width: 320px;
-    height: 40px;
-    text-align: left;
-    font-size: 20px;
-    padding: 10px 10px 10px 10px;
-    margin: 7px 7px 7px 7px;
-    border-radius: 10px 10px 10px 10px;
-    outline: none;
-    color: white;
+#display {
+  background-color: #444;
+  width: 320px;
+  height: 40px;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  margin: 7px 7px 7px 7px;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  color: white;
 }
 
-#button{
-    
-    border-radius: 10px;
-    width: 60px;
-    height: 60px;
-    color: white;
-    background-color:#666;
+#button {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  background-color: #666;
 }
-#buttons{
-     
-    border-radius: 10px;
-    width: 60px;
-    height: 60px;
-    background-color:#FF6666;
-    color:black;
+#buttons {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #ff6666;
+  color: black;
 }
-#number{
-    border-radius: 10px;
-    width: 60px;
-    height: 60px;
-    color: white;
-    background-color:#666;
+#number {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  background-color: #666;
 }
-#calc{
-    
-    margin: 5px 5px 5px 5px;
-    gap: 5px;
-    
-    display: grid;
-    grid-template-columns:repeat(4, 1fr) ;
+#calc {
+  background-color: red;
+
+  margin: 5px 5px 5px 5px;
+  gap: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
